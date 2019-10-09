@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.box {
+    height: 370px;
+    color: rgb(248, 239, 239);
+    border: 0px black;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/design2_image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.subtitle {
+    height:0;
+    background-color: black;
+    margin: 0 auto;
+    padding:  10px 0 40px 0 ;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.registro{
+    position: relative;
+    top: -940px;
+}
+
+.logo{
+    height: 135px;
+    width: 135px;
+    position: absolute;
+    right: 30px;
+    top:305px;
+}
+.game{
+    position: relative;
+    top: -964px;
+}
+
+aside{
+    width: 20%;
+    display: inline-block;
+  
+}
+.abaut{
+    position: relative;
+    top: -165px;
+}
+
+.rules{
+    position: relative;
+    top: -621px;
+}
+
+section{
+    display:inline-block;
+    height: 100%;
+    width: 72%;
+    
+    text-align: justify;
+}
+
+nav ul li{
+    padding:5px;
+    margin: 10px;
+}
+.contact{
+    position: relative;
+    top:-163px;
+}
+
+nav {
+
+    border: 5px;
+    width: 100%;
+
+}
+
+.container{
+    justify-content: flex-start;
+}
+
+nav ul li{
+    list-style: none; 
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(25, 69, 158);   
+}
+
+
+h1,nav,h2,h3,p {
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 3.4rem;
+    margin: 130px 30px;
+    padding: 20px;
+    text-align: inherit;
+    position: absolute;
+}
+
+
+p{
+    margin-left: 20px;
+}
+
+
+h4 {
+    font-weight: bold;    
+    margin-top: 30px;
+}
+
+
+.seleccionado{
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+
+
+table {
+    border-collapse: separate;
+  }
+
+.cursiva {
+    font-family: cursive !important; 
+    text-decoration: underline;
+}
+
+h5{
+    font-size: 17px;
+    font-family: cursive !important;
+    margin: 10px 0px 0px 0px;
+}
+
+.item{
+    list-style-type: disc;
+}
+
+table{
+    border-spacing: 6px;
+    margin-left: 0%;
+}
+
+footer{
+    overflow: hidden;
+    width: 100%;
+}
+
+ol{
+    padding: 0px 10px;
+}
+
+
+.bajo{
+    border:none;
+    border-bottom: solid 2px black;
+    text-align: left;
+}
+
+hr{
+    border: none;
+}
+
+.formbody , .info3 , .info  {
+    overflow: hidden;
+    height: 227px;
+}
+
+.formbody{
+    margin-top: 2%;
+    height: 200px;    
+    width: 95%;
+}
+.info3{
+    margin-top: 3%;
+
+}
+
+.info2 {
+    height: 132px;
+    width: 100%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.contract  {
+    width: 80%;
+    margin-top: 3%;
+    font-size: 14px !important; 
+    overflow: hidden;
+}
+
+.left , .izq , .izq1 , .izq2 , .izq3 , .izq4 {
+    float: left;
+    width: 49%;
+    height: 40px;
+}
+
+
+.der , .der1 , .der2 , .der3 , .der4 {
+    float: right;
+    width: 49%;
+    height: 40px;
+}
+
+.all {
+    width: 100%;
+    padding:0px 0px 2% 0px;
+}
+
+.sign{
+    float: left;
+    width: 63%;
+}
+
+.date{
+    float: right;
+    width: 34%;
+}
+
+
+
+input[type="date"] {
+    align-items: center;
+    text-align: center;
+}   
+
+input[type="text"] {
+    width: 59%;
+}
+
+    
+.maps {
+    width: 100%;    
+    text-align: left;
+}
+
+.map{
+    width: 32%;
+    display: inline-block;
+}
+
+
+
